@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Romanesco&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    background-color: black;
+    padding: 30px 40px;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+.logo img{
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style-type: none;
+}
+nav ul li a{
+    color: gray;
+    text-decoration: none;
+    padding: 20px;
+}
+nav ul li a:hover{
+    color: rgb(248, 213, 11);
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.globe{
+    cursor: pointer;
+    margin-right: 40px;
+    font-size: 20px;
+}
+.play_button a{
+    display: inline-block;
+    
+    padding-top: 8px;
+    color: black;
+    text-decoration: none;
+    background-color: rgb(245, 189, 6);
+    width: 150px;
+    height: 35px;
+    font-family: 'Bebas Neue', sans-serif;
+    border-radius: 5px;
+    text-align: center;
+}
+.play_button a:hover{
+    color: rgb(243, 9, 20);
+    background-color: rgb(139, 253, 253);
+}
+.banner{
+    background-image: url('../image/3.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 600px;
+}
+.banner .inside_bannerimg1 img{
+    margin-top: 200px;
+    margin-left: 80px;
+    height: 100px;
+    width: 500px;
+}
+.banner .inside_bannerimg2 img{
+    margin-left: 90px;
+    margin-top: 30px;
+    height: 70px;
+    width: 200px;
+}
+.first{
+    background-color: rgb(252, 248, 243);
+    height: 700px;
+    padding: 5% 10%;
+}
+.upper{
+    margin-bottom: 50px;
+}
+.upper h1{
+    font-size: 70px;
+}
+.middle{
+    display: flex;
+    justify-content: end;
+    
+}
+.middle a{
+    text-decoration: none;
+    font-size: 20px;
+    /* color: rgb(240, 178, 7); */
+}
+.middle a:hover{
+    color: rgb(255, 216, 44);
+}
+.lower{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.lower .card p{
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Romanesco', cursive;
+    text-align: center;
+}
+.second{
+    height: 700px;
+    padding: 5% 10%;
+    /* background-color: aquamarine; */
+    background-image: url('../image/2.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.main{
+    color: white;
+    /* background-color: aqua; */
+    height: 300px;
+    width: 60%;
+    padding: 5% 5%;
+}
+.one .heading{
+    font-size: 70px;
+    margin-bottom: 30px;
+}
+.two .word{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.three .paragraph{
+    font-size: 20px;
+}
+.third{
+    height: 900px;
+    padding: 5% 10%;
+    background-color: rgb(255, 245, 232);
+}
+.third .esport_heading{
+    text-align: center;
+    font-size: 70px;
+    margin-bottom: 50px;
+    color: rgb(0, 250, 229);
+    font-family: 'Bebas Neue', sans-serif;
+    text-shadow: 0 0 10px red;
+}
+.esportimg1{
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: space-between;
+}
+.esportimg2{
+    display: flex;
+    justify-content: space-between;
+}
+.esport{
+    margin-bottom: 30px;
+}
+.esport p{
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Romanesco', cursive;
+    text-align: center;
+}
+footer{
+    background-color: black;
+    padding: 3% 7%;
+}
+.footermain{
+    display: flex;
+}
+.link{
+    padding-left: 70px;
+    padding-top: 20px;
+}
+.link a{
+    color: gray;
+    padding-right: 10px;
+}
+.copyright{
+    color: grey;
+    padding-top: 30px;
+}

@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner{
+    height: 600px;
+    background-image: url('../image/960a7ecc91d1121e6404ad80a5038ceejpg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* background-color: aqua; */
+}
+.scarchbar{
+    padding: 5% 10%;
+    display: flex;
+
+}
+input{
+    
+    width: 90%;
+    height: 50px;
+    text-indent: 20px;
+    background-color: rgb(31, 28, 28);
+    border: none;
+    color: white;
+    font-size: 15px;
+}
+button{
+    cursor: pointer;
+    background-color: rgb(138, 255, 255);
+    width: 5%;
+    border: 1px solid black;
+}
+.pic{
+    padding: 5% 10%;
+    background-color: bisque;
+    text-align: center;
+}
+.line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.card{
+    border: 1px solid black;
+    margin-bottom: 10px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px red;
+}
+.card p{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
